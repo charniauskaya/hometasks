@@ -1,0 +1,10 @@
+form { padding: 40px; position: fixed; top: 10%;left: 10%; border: 1px solid darkturquoise ; width: 40%; 
+ background-image: linear-gradient(to top left, lightcyan, darkturquoise); border-radius: 10px; border-color: darkcyan;  }
+input {background-color:lightcyan ; border: 1px; border-radius: 10px;position:fixed; left: 30%;}
+input[name=reset] {position: fixed;left: 20%;}
+p {font-family: "Colibri" ; font-style: italic;}
+fieldset { border: 1px  lightcyan; border-radius: 5px; background-color: lightcyan; border-color: lightcyan; padding: 1em;  }
+textarea {background-color:lightcyan; border-radius: 10px; }
+select {background-color: lightcyan; border-radius: 10px; }
+select[name^=numOf] {position:fixed; left: 30%;}
+h1 {position: fixed; left:20%;  }
