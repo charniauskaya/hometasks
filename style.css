@@ -6,8 +6,7 @@ html {
 }
 
 body {
-    background-image: url(background-image.jpg);
-    overflow: auto;
+    background-image: url(img/background-image.jpg);
     background-size: cover;
 }
 nav {
@@ -19,13 +18,12 @@ nav {
     width: 33%;
     height: 100%;
     font-size: 12px;
-    background-image: url(flower.png) ;
-    /* до завтра постараюсь разобраться с фоном картинки*/
+    background-image: url(img/flower.png) ;
     background-size: auto 80%;  
     background-repeat: no-repeat;
     background-position: right;
     background-color: white;
-     ;
+     
 
 }
 main {
@@ -33,8 +31,7 @@ main {
     background-clip: border-box;
     padding: 30px;
     width: 60%;
-     ;
-
+     
 }
 a {
     text-decoration: none
@@ -64,7 +61,7 @@ aside li {
     text-decoration: underline;
 }
 
-.headline {
+article {
     margin-left: 100px;
     border: 2px solid #c0c2c1;
     font-family: "Segoe UI";
@@ -89,12 +86,11 @@ h2 {
 
 form {
     border-radius: 10px;
-    
     border: 1px;
     border-style: dotted;
     border-color: blue;
     text-align: right;
- background-color: white
+ background-color: white;
 }
 
 form p {
