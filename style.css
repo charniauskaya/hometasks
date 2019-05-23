@@ -110,3 +110,34 @@ form p {
 label {
     font-weight: bold;
 }
+
+a {
+    color: blue;
+}
+
+nav a:hover {
+    color: purple;
+}
+
+nav a:active {
+    color: red;
+}
+
+article:hover {
+    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
+   }
+
+article p:first-letter {
+    font-size: 2em;
+
+}
+article p:first-line {
+    font-style: italic;
+}
+article a:hover {
+    text-decoration: underline;
+}
+
+article a:active {
+    color: purple;
+}
