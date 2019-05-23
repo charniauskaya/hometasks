@@ -9,6 +9,7 @@ body {
     background-image: url(img/background-image.jpg);
     background-size: cover;
 }
+
 nav {
     margin-bottom: 10px;
     line-height: 15px;
@@ -18,21 +19,20 @@ nav {
     width: 33%;
     height: 100%;
     font-size: 12px;
-    background-image: url(img/flower.png) ;
-    background-size: auto 80%;  
+    background-image: url(img/flower.png);
+    background-size: auto 80%;
     background-repeat: no-repeat;
     background-position: right;
     background-color: white;
-     
-
 }
+
 main {
-    background:  rgba(200,220,245,0.5)  ; 
+    background: rgba(200, 220, 245, 0.5);
     background-clip: border-box;
     padding: 30px;
     width: 60%;
-     
 }
+
 a {
     text-decoration: none
 }
@@ -73,7 +73,6 @@ article {
     text-align: justify;
     padding-bottom: 20px;
     background-color: white;
-
 }
 
 h2 {
@@ -90,7 +89,7 @@ form {
     border-style: dotted;
     border-color: blue;
     text-align: right;
- background-color: white;
+    background-color: white;
 }
 
 form p {
@@ -124,20 +123,31 @@ nav a:active {
 }
 
 article:hover {
-    box-shadow: 10px 10px 10px rgba(0,0,0,0.5);
-   }
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+}
 
 article p:first-letter {
     font-size: 2em;
-
 }
+
 article p:first-line {
     font-style: italic;
 }
+
 article a:hover {
     text-decoration: underline;
 }
 
 article a:active {
     color: purple;
+}
+
+nav:hover,
+article:hover {
+    font-size: 1.1em;
+}
+
+:active[href="#"]::after {
+    content: " Страница пуста. В разработке.";
+    color: red;
 }
