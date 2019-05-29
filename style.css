@@ -1,6 +1,5 @@
 body {
 	background: aliceblue;
-
 }
 
 main {
@@ -8,93 +7,83 @@ main {
 	padding: 10px;
 }
 
-
 a {
 	text-decoration: none;
 	color: darkblue;
 }
 
-header h1, header p {
+header h1,
+header p {
 	text-align: center;
-  width: 400px;
+	width: 400px;
 	padding-left: 40%;
-  line-height: 17px;
+	line-height: 17px;
 }
-
 
 header nav {
-  padding-left: 55%;
-  
-
+	padding-left: 55%;
 }
-
 
 .navigation {
-	border: 0px solid ;
-	border-radius:  10px ;
+	border: 0px solid;
+	border-radius: 10px;
 	background: lightgrey;
 	margin: 15px;
-    top:10px;
-  
+	top: 10px;
 }
+
 hr {
-  background-color: black;
-   padding-bottom: 2px;
-   margin: 	15px;
-
-
-  
-
+	background-color: black;
+	padding-bottom: 2px;
+	margin: 15px;
 }
 
 section {
 	border: 1px solid black;
-  	position: relative;
+	position: relative;
 	margin: 20px;
 	padding: 8px;
 	overflow: auto;
 	height: auto;
-	
 }
 
 h2 {
-	text-transform:  capitalize;
+	text-transform: capitalize;
 }
 
 footer h2 {
 	text-transform: none;
 	font-style: italic;
-} 
+}
+
 .flower {
-	height:15px;
-	 width:15px;
-	 display: inline;	
+	height: 15px;
+	width: 15px;
+	display: inline;
 }
 
 .popular1 {
 	overflow: auto;
 	height: auto;
 }
+
 .popular2 {
 	height: auto;
 	overflow: auto;
-	
 }
 
-
-.imgNature {position: relative;
+.imgNature {
+	position: relative;
 	float: right;
-	height: 	140px;
-	width: 	140px;
-
-
+	height: 140px;
+	width: 140px;
 }
 
-.imgDog { position: relative;
+.imgDog {
+	position: relative;
 	float: left;
 	height: 150px;
-	width: 	150px;
-
+	width: 150px;
 }
 
 .imgSea {
@@ -102,8 +91,7 @@ footer h2 {
 	float: right;
 	width: 150px;
 	height: 220px;
-	padding-bottom:  15px;
-
+	padding-bottom: 15px;
 }
 
 .imgMoose {
@@ -111,56 +99,58 @@ footer h2 {
 	float: left;
 	width: 150px;
 	height: 220px;
-	padding-bottom:  15px;
-} 
-
+	padding-bottom: 15px;
+}
 
 .allArticle li {
 	border: 1px solid;
 	height: 45px;
 	width: 95px;
 	list-style-type: none;
-	background: lightblue ;
-	margin:  15px;
+	background: lightblue;
+	margin: 15px;
 	text-align: center;
-	font-weight:  bold;
+	font-weight: bold;
 }
 
 button {
 	margin-left: 87%;
 	border-radius: 10px;
 	height: 25px;
-	width: 	100px;	
-	background-color: 	silver;
-	box-shadow: 	2px 2px 2px dimgray;
-
+	width: 100px;
+	background-color: silver;
+	box-shadow: 2px 2px 2px dimgray;
 }
 
-footer {position: fixed;
-	left: 0; bottom: 0; /* Левый нижний угол */
-    padding: 10px; /* Поля вокруг текста */
-    background: lightgrey; /* Цвет фона */
-    width: 100%; 
-    padding:  0px ;
-
-}
-footer div{
-	border:none;
+footer {
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	padding: 10px;
+	background: lightgrey;
+	width: 100%;
+	padding: 0px;
 }
 
-#allArticle {padding-bottom: 200px;
-
+footer div {
+	border: none;
 }
 
-.one {z-index: 2;
+#allArticle {
+	padding-bottom: 200px;
+}
+
+#block {
+	display: none;
 	height: auto;
-	width: 	700px;
-	top: 	10px;
+	position: relative;
+	width: 700px;
+	top: -19px;
+	left: -1px;
+	z-index: 1;
+	background-color: white;
 }
 
-.allArticle a {z-index: 	1;}
-
-.allArticle a:hover { display: block;
-
+#link:active~#block {
+	display: block;
 }
-
