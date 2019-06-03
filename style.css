@@ -1,142 +1,58 @@
-body {
-	background: aliceblue;
-	width: 99%;
-	max-width: 1920px;
-}
-
-main {
-	background: white;
-	padding: 10px;
-	padding-bottom: 200px;
-}
-
-a {
-	text-decoration: none;
-	color: darkblue;
-}
-
-.headerBlog {
-	text-align: center;
-	width: 45%;
-	padding-left: 30%;
-	line-height: 17px;
-}
-
-header nav {
-	padding-left: 50%;
-}
-
-.navigation {
-	border-radius: 10px;
-	background: lightgrey;
-	margin: 15px;
-	top: 10px;
-}
-
-hr {
-	background-color: black;
-	padding-bottom: 2px;
-	margin: 20px;
-	width: 95%;
-	position: relative;
-	top: 15px;
-}
-
-div section {
-	border: 1px solid black;
-	margin: 20px;
-	padding: 8px;
-	overflow: auto;
-	height: auto;
-}
-
-h2 {
-	text-transform: capitalize;
-}
-
-footer h2 {
-	text-transform: none;
-	font-style: italic;
-}
-
-.flower {
-	height: 15px;
-	width: 15px;
-	display: inline;
-}
-
-.popular1 {
-	overflow: auto;
-	height: auto;
-}
-
-.popular2 {
-	height: auto;
-	overflow: auto;
-}
-
-.imgNature {
-	float: right;
-	height: 140px;
-	width: 140px;
-}
-
-.imgDog {
-	float: left;
-	height: 150px;
-	width: 150px;
-}
-
-.imgSea {
-	float: right;
-	width: 150px;
-	height: 220px;
-}
-
-.imgMoose {
-	float: left;
-	width: 150px;
-	height: 220px;
-	padding-bottom: 15px;
-}
-
-.allArticle article {
-	height: 30px;
-	width: 75px;
-	overflow: hidden;
-	padding-bottom: 15px;
-	border: 1px solid;
-	margin-bottom: 2px;
-	background-color: lightslategrey;
-}
-
-.allArticle article:target {
-	height: auto;
-	width: 80%;
-	background-color: white;
-}
-
-
-button {
-	margin-left: 87%;
-	float: right;
-	border-radius: 10px;
-	height: 25px;
-	width: 13%;
-	background-color: rgb(139, 131, 168);
-	box-shadow: 2px 2px 2px dimgray;
+header {
+    background-color: #333333;
+    color: #dddddd;
+    text-align: center;
+    padding: 5px;
 }
 
 footer {
-	position: fixed;
-	left: 0;
-	bottom: 0;
-	padding: 10px;
-	background: lightgrey;
-	width: 100%;
-	padding: 0px;
+    background-color: #333333;
+    color: #dddddd;
+    text-align: center;
 }
 
-footer div {
-	border: none;
+.col1 {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.col1>p,
+.col3>p {
+    color: blue;
+}
+
+.col1 li p {
+    color: orangered
+}
+
+.col3 {
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.col3 li p {
+    color: green;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.visible-md li {
+    display: inline-block;
+}
+
+img {
+    max-width: 100%;
+}
+
+.col2 img {
+    box-shadow: 4px 4px 4px;
+}
+
+.col2 p {
+    margin-top: 20px;
+    margin-right: 50px;
+    overflow: auto;
+    height: auto;
 }
