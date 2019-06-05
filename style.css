@@ -41,7 +41,7 @@ hr {
 	top: 15px;
 }
 
-div section {
+main div section {
 	border: 1px solid black;
 	margin: 20px;
 	padding: 8px;
@@ -137,8 +137,4 @@ footer {
 	background: lightgrey;
 	width: 100%;
 	padding: 0px;
-}
-
-footer div {
-	border: none;
 }
