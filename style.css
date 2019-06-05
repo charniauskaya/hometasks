@@ -42,17 +42,15 @@ ul {
     display: inline-block;
 }
 
-img {
-    max-width: 100%;
-}
 
 .col2 img {
     box-shadow: 4px 4px 4px;
+    width: 100%;
 }
 
-.col2 p {
+.col4, 
+.col5 {
     margin-top: 20px;
     margin-right: 50px;
-    overflow: auto;
-    height: auto;
+   
 }
