@@ -10,16 +10,15 @@
 </head>
 
 <body>
-
+    <div class="container-fluid">
     <header>
         <h1> Layout shifter pattern</h1>
         <p>Please re-size the window</p>
-    </header>
-<!-- Катарина, подскажите , пожалуйста как убрать padding по всему документу. они очень мне мешали при работе. но убрать их почему-то не получилось-->
+    </header></div>
     <div class="container-fluid">
         <div class="row">
             <div class="visible-md">
-                <div class="col3 ">
+                <aside>
                     <p>You also might like</p>
                     <ul>
                         <li>
@@ -43,14 +42,14 @@
                             <p>Weightilifting</p>
                         </li>
                     </ul>
-                </div>
+                </aside>
             </div>
         </div>
         <div class="row">
             <div class="col-xs-12 col-sm-8 col-sm-push-2 col-md-8 col-lg-8 ">
                 <main>
                     <div class="col2">
-                        <div>
+                        <article>
                             <h2>Archery at the 2016 Summer Olympics</h2>
                             <img src="img/Archery.jpg" alt="Archery">
                             <div class="container-fluid">
@@ -62,8 +61,8 @@
                             <div class="col-lg-2">
                             <div class="col5"><button type="button" class="btn btn-primary">More...</button></div></div>
                             
-                        </div>
-                        <section>
+                            </article>
+                        <article>
                             <h2>Athletics qualication for Rio 2016</h2>
                             <img src="img/Athletics.jpg" alt="Athletics">
                              <div class="row">
@@ -74,9 +73,8 @@
                             <div class="col-lg-2">
                             <div class="col5"><button type="button" class="btn btn-primary">More...</button></div></div>
                             
-                        </div>
-                        </section>
-                        <section>
+                            </article>
+                        <article>
                             <h2>Basketball strategy</h2>
                             <img src="img/Basketball.jpg" alt="Basketball">
                             <div class="row">
@@ -88,8 +86,8 @@
                                     <div class="col5"><button type="button" class="btn btn-primary">More...</button></div></div>
                                     
                                 </div>
-                        </section>
-                        <section>
+                        </article>
+                        <article>
                             <h2>Beach Volleyball- how to get in shape?</h2>
                             <img src="img/Beach_Voleyball.jpg" alt="Beach_Voleyball">
                             <div class="row">
@@ -101,31 +99,31 @@
                                     <div class="col5"><button type="button" class="btn btn-primary">More...</button></div></div>
                                     
                                 </div>
-                        </section>
+                        </article>
                     </div>
                 </main>
             </div>
             <div class="col-xs-12 col-sm-2 col-sm-pull-8 col-md-2 col-lg-2 ">
-                <div class="col1">
+                <div class="nav">
                     <p>Recently visited</p>
                     <ul>
-                        <li><img src="icons/icon_archery.png" alt="archrery">
+                        <li><img src="icons/icon_archery.png" alt="archrery" width="100px">
                             <p>Archery</p>
                         </li>
-                        <li><img src="icons/icon_athletics.png" alt="Athletics">
+                        <li><img src="icons/icon_athletics.png" alt="Athletics" width="100px">
                             <p>Atletics</p>
                         </li>
-                        <li><img src="icons/icon_basketball.png" alt="Basketball">
+                        <li><img src="icons/icon_basketball.png" alt="Basketball" width="100px">
                             <p>Bascetball</p>
                         </li>
-                        <li><img src="icons/icon_beach_voleyball.png" alt="Volleyball">
+                        <li><img src="icons/icon_beach_voleyball.png" alt="Volleyball" width="100px">
                             <p>Beach volleyball</p>
                         </li>
                     </ul>
                 </div>
             </div>
-            <div class="col-xs-12 col-sm-12 hidden-md col-lg-2 ">
-                <div class="col3">
+            <aside class="col-xs-12 col-sm-12 hidden-md col-lg-2 ">
+                <aside>
                     <p>You also might like</p>
                     <ul>
                         <li>
@@ -149,14 +147,14 @@
                             <p>Weightilifting</p>
                         </li>
                     </ul>
-                </div>
+                </aside>
             </div>
         </div>
     </div>
-    <footer>
+    <div class="container-fluid"><footer>
         <p>Footer</p>
     </footer>
-
+</div>
 </body>
 
 </html>
