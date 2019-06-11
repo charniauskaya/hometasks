@@ -1,49 +1,50 @@
-header {
+header, footer  {
     background-color: #333333;
     color: #dddddd;
     text-align: center;
-    padding: 5px;
+    padding: 40px;
+    
 }
 
-footer {
-    background-color: #333333;
-    color: #dddddd;
-    text-align: center;
-}
-
-.col1 {
+.nav {
     background-color: #f7f7f7;
     text-align: center;
 }
+.nav ul {
+     padding-left: 0px !important;
+}
 
-.col1>p,
-.col3>p {
+.nav>p,
+aside >p {
     color: blue;
 }
 
-.col1 li p {
+.nav li p {
     color: orangered
 }
 
-.col3 {
+aside {
     background-color: #f7f7f7;
     text-align: center;
+    
 }
 
-.col3 li p {
+aside li p {
     color: green;
 }
 
 ul {
     list-style-type: none;
 }
-
+article {
+    padding-left: 10px;
+}
 .visible-md li {
     display: inline-block;
 }
 
 
-.col2 img {
+.content img {
     box-shadow: 4px 4px 4px;
     width: 100%;
 }
@@ -53,4 +54,7 @@ ul {
     margin-top: 20px;
     margin-right: 50px;
    
+}
+.container-fluid {
+    padding: 0px !important;
 }
