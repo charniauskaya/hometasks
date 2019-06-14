@@ -1,40 +1,228 @@
-
-body {
-    padding: 20px;
-   
-}
-.container div {
-    min-height: 60px;
-}
 .container {
     display: grid;
-    grid-template-rows: repeat(12/1fr) ;
-    grid-template-columns: auto;
-    grid-gap: 10px;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(12, 1fr);
+    justify-content: center;
+}
+.container-fluid { display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(12, 1fr);
+}
+.row { display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(12, 1fr);
+}
+
+@media (max-width:776px) {   
+    .col-xs-1 {
+        grid-column: span 1;
+    }
+   
+    .col-xs-2 {
+        grid-column: span 2;
+    }
+    .col-xs-3 {
+        grid-column: span 3;
+    }
+    .col-xs-4 {
+        grid-column: span 4;
+    }
+    .col-xs-5 {
+        grid-column: span 5;
+    }
+  .col-xs-6 {
+        grid-column: span 6;
+    }
+       .col-xs-7 {
+        grid-column: span 7;
+    }
+ 
+    .col-xs-8 {
+        grid-column: span 8;
+    }
+
+    .col-xs-9 {
+        grid-column: span 9;
+    }
+
+.col-xs-10 {
+        grid-column: span 10;
+    }
+    .col-xs-11 {
+        grid-column: span 11;
+    }
+.col-xs-12 {
+
+        grid-column: span 12;
+    }
+
+.hidden-xs {
+        display: none;
+    }
+    .visible-xs {
+        display: block;
+    }
 
 }
 
+@media (max-width:992px) {
+
+    .col-sm-1 {
+        grid-column: span 1;
+    }
+   
+    .col-sm-2 {
+        grid-column: span 2;
+    }
+    .col-sm-3 {
+        grid-column: span 3;
+    }
+    .col-sm-4 {
+        grid-column: span 4;
+    }
+    .col-sm-5 {
+        grid-column: span 5;
+    }
+  .col-sm-6 {
+        grid-column: span 6;
+    }
+       .col-sm-7 {
+        grid-column: span 7;
+    }
+ 
+    .col-sm-8 {
+        grid-column: span 8;
+    }
+
+    .col-sm-9 {
+        grid-column: span 9;
+    }
+
+.col-sm-10 {
+        grid-column: span 10;
+    }
+    .col-sm-11 {
+        grid-column: span 11;
+    }
+.col-sm-12 {
+
+        grid-column: span 12;
+    }
 
 
-@media (max-width: 768px)
-{   .col-sm-1 {
-    grid-column: span 1;
-      .item-2 {
-        grid-row: 2/3;
-         grid-column: 1/13;  
+    .hidden-sm {
+        display: none;
     }
-    .item-3 {
-        grid-row: 3/4;
-        grid-column: 1/13;  
+    .visible-sm {
+        display: block;
     }
 
-    .item-4 {
-        grid-row: 4/5;
-        grid-column: 1/13;   
-    }
-    .item-5 {
-         grid-row:5/6
-         grid-column: 1/13;  
-    }
 }
-/* совсем не понятно, что ужно было сделать. постараюсь сегодняосилить это задание */
+
+@media (max-width:1200px) {
+    .col-md-1 {
+        grid-column: span 1;
+    }
+   
+    .col-md-2 {
+        grid-column: span 2;
+    }
+    .col-md-3 {
+        grid-column: span 3;
+    }
+    .col-md-4 {
+        grid-column: span 4;
+    }
+    .col-md-5 {
+        grid-column: span 5;
+    }
+  .col-md-6 {
+        grid-column: span 6;
+    }
+       .col-md-7 {
+        grid-column: span 7;
+    }
+ 
+    .col-md-8 {
+        grid-column: span 8;
+    }
+
+    .col-md-9 {
+        grid-column: span 9;
+    }
+
+.col-md-10 {
+        grid-column: span 10;
+    }
+    .col-md-11 {
+        grid-column: span 11;
+    }
+.col-md-12 {
+
+        grid-column: span 12;
+    }
+
+    .hidden-md {
+        display: block;
+    }
+
+    .visible-md {
+        display: block;
+    }
+
+
+}
+
+@media (min-width: 1200px) {
+
+    .col-lg-1 {
+        grid-column: span 1;
+    }
+   
+    .col-lg-2 {
+        grid-column: span 2;
+    }
+    .col-md-3 {
+        grid-column: span 3;
+    }
+    .col-lg-4 {
+        grid-column: span 4;
+    }
+    .col-lg-5 {
+        grid-column: span 5;
+    }
+  .col-lg-6 {
+        grid-column: span 6;
+    }
+       .col-lg-7 {
+        grid-column: span 7;
+    }
+ 
+    .col-lg-8 {
+        grid-column: span 8;
+    }
+
+    .col-lg-9 {
+        grid-column: span 9;
+    }
+
+.col-lg-10 {
+        grid-column: span 10;
+    }
+    .col-lg-11 {
+        grid-column: span 11;
+    }
+.col-lg-12 {
+
+        grid-column: span 12;
+    }
+
+    .hidden-lg {
+        display: none;
+    }
+
+    .visible-lg {
+        display: block;
+    }
+
+}
