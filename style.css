@@ -22,7 +22,15 @@ body {
     "item6 item14 item22 item30" 
     "item7 item15 item23 item31";
 }
+.color-blue, .color-white {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.white {
+    border: none;
+}
 .item-1 {
     grid-area: item1;
     padding-right: 40px;
@@ -166,14 +174,14 @@ body {
 
 .color-blue {
     background-color: #6165ff;
-    text-align: center;
+    
     color: white;
     padding-top: 20px;
 }
 
 .color-white {
     background-color: white;
-    text-align: center;
+    
     color: gray;
     padding-top: 20px;
 }
@@ -206,6 +214,7 @@ h4 {
         "item7 item7 item7" 
         "item15 item23 item31";
     }
+    
     .white { 
        display: block;
         grid-column: 2/3;
@@ -214,7 +223,7 @@ h4 {
     }
     .color-white {
         background-color: #ebecf3;
-        text-align: left;
+        
     }
     div {
         border-top: none;
@@ -232,6 +241,14 @@ h4 {
         background-color: white;
         color: gray;
     }
+    
+   
+    
+    .color-blue, .color-white {
+        display: flex;
+        align-items: baseline;
+        justify-content: flex-start;
+    }
 
 }
 @media (max-width: 768px) {
@@ -244,9 +261,8 @@ h4 {
     .item-16 {
         color: black;
     }
-    .table {
-        text-align: center;
-    }
+    
+    
     .item-15, .item-23 ,.item-31 {
         color: black;
     }
@@ -259,10 +275,10 @@ h4 {
     .item-7 {
         border-bottom: solid 1px black;
     }
-    div {
-        text-align: center;
+    .color-blue, .color-white, .categorii {
+        display: flex;
+        align-items: stretch;
+        justify-content: center;
     }
-    .color-blue, .color-white {
-        text-align: center;
+    
     }
-}
