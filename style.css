@@ -1,0 +1,69 @@
+body { 
+	background-image: url(https://i.imgur.com/rsvgdbm.png);
+	background-repeat: repeat;
+}
+
+.luna > img {
+	bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	position: absolute;
+	margin: auto;
+}
+
+.nlo img { bottom: 0;
+	left: 0;
+	right: 0;
+	top: 0;
+	position: absolute;
+	margin: auto;
+	width: 80px;
+}
+
+.one:hover {
+	transition: translate(50px, -500px;)
+}
+
+.luna:hover .one{
+transition-delay:  0.1s;
+transition-duration: 4s;
+right: 750px;
+top: -750px;
+}
+
+.luna:hover .two{transition-duration: 4s;
+transition-delay:  0.15s;
+
+top: -750px;
+}
+
+.luna:hover .three{transition-duration: 4s;
+transition-delay:  0.2s;
+top: -750px;
+left: 750px;
+}
+.luna:hover .four{transition-duration: 4s;
+transition-delay: 0.25s;
+left: 750px;
+
+}
+.luna:hover .five{transition-duration: 4s;
+transition-delay: 0.3s;
+top: 750px;
+left: 750px;
+}
+.luna:hover .six{transition-duration: 4s;
+transition-delay: 0.35s;
+top:750px;
+}
+.luna:hover .seven{transition-duration: 4s;
+transition-delay: 0.4s;
+top: 750px;
+right:  750px;
+}
+.luna:hover .eight{transition-duration: 4s;
+transition-delay: 0.45s;
+right:  750px;
+}
+
