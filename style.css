@@ -22,9 +22,6 @@ body {
 	width: 80px;
 }
 
-.one:hover {
-	transition: translate(50px, -500px;)
-}
 
 .luna:hover .one{
 	transition-delay:  0.1s;
