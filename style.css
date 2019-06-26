@@ -2,72 +2,78 @@ body {
 	background-image: url(https://i.imgur.com/rsvgdbm.png);
 	background-repeat: repeat;
 }
+.container {
+	width: 100vw;
+	height: 100vh;
+	margin: 0 auto;
+}
 
-.luna > img {
-	bottom: 0;
-	left: 0;
-	right: 0;
-	top: 0;
+.moon {
+	background: url(https://i.imgur.com/EHrvLa0.png) no-repeat;
+	width: 300px;
+	height: 300px;
+	background-size: cover;
 	position: absolute;
-	margin: auto;
+	top: 40vh;
+	left: 45vh;
 }
 
-.nlo img { 
-	bottom: 0;
-	left: 0;
-	right: 0;
-	top: 0;
+.ship {
+	background: url(https://i.imgur.com/7ovKJVk.png);
+	width: 30px;
+	height: 30px;
+	background-size: cover;
 	position: absolute;
-	margin: auto;
-	width: 80px;
+	top: 35%;
+	left: 35%;
+	transition: all 2s ease-in-out;
 }
-
-
-.luna:hover .one{
-	transition-delay:  0.1s;
-	transition-duration: 4s;
-	right: 750px;
-	top: -750px;
+.ship1 {
+	transition-delay: 0.1s;
 }
-
-.luna:hover .two{
-	transition-duration: 4s;
-	transition-delay:  0.15s;
-	top: -750px;
+.ship2 {
+	transition-delay: 0.2s;
 }
-
-.luna:hover .three{
-	transition-duration: 4s;
-	transition-delay:  0.2s;
-	top: -750px;
-	left: 750px;
-}
-.luna:hover .four{
-	transition-duration: 4s;
-	transition-delay: 0.25s;
-	left: 750px;
-
-}
-.luna:hover .five{
-	transition-duration: 4s;
+.ship3 {
 	transition-delay: 0.3s;
-	top: 750px;
-	left: 750px;
 }
-.luna:hover .six{
-	transition-duration: 4s;
-	transition-delay: 0.35s;
-	top:750px;
-}
-.luna:hover .seven{
-	transition-duration: 4s;
+.ship4 {
 	transition-delay: 0.4s;
-	top: 750px;
-	right:  750px;
 }
-.luna:hover .eight{
-	transition-duration: 4s;
-	transition-delay: 0.45s;
-	right:  750px;
+.ship5 {
+	transition-delay: 0.5s;
+}
+.ship6 {
+	transition-delay: 0.6s;
+}
+.ship7 {
+	transition-delay: 0.7s;
+}
+.ship8 {
+	transition-delay: 0.8s;
 }
 
+.moon:hover .ship1 {
+	transform: translate(-250px, -200px);
+}
+.moon:hover .ship2 {
+	transform: translate(-250px, -200px);
+}
+.moon:hover .ship3 {
+	transform: translate(-250px, -200px);
+}
+.moon:hover .ship4 {
+	transform: translate(-250px, -200px);
+}
+.moon:hover .ship5 {
+	transform: translate(-250px, -200px);
+}
+.moon:hover .ship6 {
+	transform: translate(-250px, -200px);
+}
+.moon:hover .ship7 {
+	transform: translate(-250px, -200px);
+}
+.moon:hover .ship8 {
+	transform: translate(-250px, -200px);
+}
