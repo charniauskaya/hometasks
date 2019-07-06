@@ -10,10 +10,16 @@ body {
 	overflow: hidden;
 	background-size: cover;
 
+
+}
+main  {
+	width: 92vw;
+	transition: width 2s ease;
+
 }
 
 .navbar-menu nav ul li {
-	padding: 60px 30px;
+	padding: 40px 20px;
 	transition: background-color 0.2s ease;
 }
 
@@ -24,16 +30,11 @@ body {
 }
 
 .navbar-menu {
-	width: 9vw;
+	width: 5vw;
 	height: auto;
 	background: #c7254e;
 	transition: all 0.5s ease;
 	justify-content: center;
-
-}
- main img{
-	width:85vw;
-	height: 100vh;
 
 }
 header nav ul li svg {
@@ -60,5 +61,9 @@ header nav ul li svg {
 }
 
 .navbar-menu:hover {
-	width: 30vw;
+	width: 20vw;
+}
+.navbat-menu:hover~main {
+	width: 80vw;
+
 }
