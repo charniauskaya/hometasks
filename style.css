@@ -1,0 +1,64 @@
+* {
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	display: flex;
+	width: 100vw;
+	height: 100vh;
+	overflow: hidden;
+	background-size: cover;
+
+}
+
+.navbar-menu nav ul li {
+	padding: 60px 30px;
+	transition: background-color 0.2s ease;
+}
+
+.navbar-menu nav ul li a {
+	text-decoration: none;
+	color: white;
+
+}
+
+.navbar-menu {
+	width: 9vw;
+	height: auto;
+	background: #c7254e;
+	transition: all 0.5s ease;
+	justify-content: center;
+
+}
+ main img{
+	width:85vw;
+	height: 100vh;
+
+}
+header nav ul li svg {
+	max-width: 40px;
+	max-height: 40px;
+	fill: white;
+}
+
+.navbar-menu nav ul li a span {
+	opacity: 0;
+	position: absolute;
+	transition: transform 0.5s ease ;
+}
+
+
+.navbar-menu:hover nav ul li a span {
+	opacity: 1;
+	transform: translate(20px,0);
+
+}
+
+.navbar-menu nav ul li:hover {
+	background-color: #000000;
+}
+
+.navbar-menu:hover {
+	width: 30vw;
+}
