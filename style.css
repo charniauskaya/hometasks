@@ -1,0 +1,43 @@
+.slider .prev, .slider .next {
+    position: absolute;
+    top: 25%;
+    font-size: 40px;
+    left:25%;
+}
+.slider .next {
+    left: 73%;
+}
+.item1 {
+    background-color:rosybrown ;
+
+}
+.item2 {
+    background-color: rgb(84, 84, 231);
+}
+.item3 {
+    background-color: violet;
+}
+.slideText {
+    position: absolute;
+    color: #fff;
+    font-size: 20px;
+    left: 50%;
+    top: 7%;
+
+}
+
+.slider .item { 
+    width: 99vw;
+    height: 70vh;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .5;
+    }
+    to {
+        opacity: 1;
+    }
+}
